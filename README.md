@@ -2,7 +2,7 @@
 # QuoteVault - Aura Wisdom Vault
 
 <div align="center">
-  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="QuoteVault Logo" width="120"/>
+  <img src="app/src/main/res/drawable/img.png" alt="QuoteVault - Aura Wisdom Vault Logo" width="150"/>
   <h3>📱 A Premium Quote Discovery & Collection Platform</h3>
   <p>Built with Jetpack Compose, Supabase, and Clean Architecture</p>
   <p><strong>Assignment Score: 100/100 ⭐</strong></p>
@@ -102,11 +102,12 @@
 2. [Setup Instructions](#-setup-instructions)
 3. [AI Coding Approach & Workflow](#-ai-coding-approach--workflow)
 4. [AI Tools Used](#-ai-tools-used)
-5. [Design Resources](#-design-resources)
-6. [Architecture](#%EF%B8%8F-architecture)
-7. [Known Limitations](#-known-limitations)
-8. [Testing](#-testing)
-9. [Troubleshooting](#-troubleshooting)
+5. [App Screenshots](#%EF%B8%8F-app-screenshots)
+6. [Design Resources](#-design-resources)
+7. [Architecture](#%EF%B8%8F-architecture)
+8. [Known Limitations](#-known-limitations)
+9. [Testing](#-testing)
+10. [Troubleshooting](#-troubleshooting)
 
 ---
 
@@ -840,10 +841,133 @@ Info Blue: #3B82F6
 
 **Typography:**
 
+<<<<<<< HEAD
 * **Primary Font:** Poppins (Google Fonts)
 * **Headings:** Poppins SemiBold (600)
 * **Body:** Poppins Regular (400)
 * **Quotes:** Playfair Display (Serif)
+=======
+**Design System:**
+1. **Splash Screen:** Animated logo with gradient glow
+2. **Auth Screens:** Glass-morphism cards with floating orbs
+3. **Home Screen:** Editorial layout with featured quote
+4. **Quote Cards:** Elevated cards with hover effects
+5. **Bottom Navigation:** Glass dock with animated indicators
+
+### Stitch/Design Tool Usage
+
+**Tools Used:**
+- **Figma:** Initial wireframes and mockups
+- **Material Theme Builder:** Color scheme generation
+- **Android Studio Layout Inspector:** UI debugging
+- **Jetpack Compose Preview:** Real-time UI preview
+
+### Design Process
+
+1. **Research Phase**
+   - Studied premium meditation apps (Calm, Headspace)
+   - Analyzed quote apps (Quotlr, Daily Quotes)
+   - Reviewed Material3 guidelines
+
+2. **Wireframing**
+   - Sketched basic layouts
+   - Defined user flows
+   - Created component library
+
+3. **Visual Design**
+   - Applied "Aura" theme concept
+   - Created gradient backgrounds
+   - Designed custom icons
+
+4. **Implementation**
+   - Converted designs to Jetpack Compose
+   - Added animations and transitions
+   - Refined based on device testing
+
+## 🖼️ App Screenshots
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><strong>Splash Screen</strong><br/><img width="360" alt="Splash Screen - Animated Logo" src="https://github.com/user-attachments/assets/6a0fa98b-aed7-4e60-bfa8-21892422b587" /></td>
+    <td align="center"><strong>Login Screen</strong><br/><img width="360" alt="Login - Glass Morphism Design" src="https://github.com/user-attachments/assets/3fd8cc3b-fe29-4ab9-a171-8bfc69765937" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Signup Screen</strong><br/><img width="360" alt="Signup - User Registration" src="https://github.com/user-attachments/assets/343bdf2a-2adf-40ea-901e-5013a9c9c322" /></td>
+    <td align="center"><strong>Home Screen</strong><br/><img width="360" alt="Home - Quote Feed & Daily Aura" src="https://github.com/user-attachments/assets/7c6008b7-accd-4835-bd5f-f243826a477a" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Explore Screen</strong><br/><img width="360" alt="Explore - Categories & Search" src="https://github.com/user-attachments/assets/99bff62b-2f35-4994-982f-02ccec100a13" /></td>
+    <td align="center"><strong>Favorites Screen</strong><br/><img width="360" alt="Favorites - Saved Quotes" src="https://github.com/user-attachments/assets/1e77ca54-dcf2-4831-b890-f106ab8f4523" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Collections Screen</strong><br/><img width="360" alt="Collections - Custom Quote Groups" src="https://github.com/user-attachments/assets/f9332025-a81a-43ca-ae16-68ec082da675" /></td>
+    <td align="center"><strong>Collection Detail</strong><br/><img width="360" alt="Collection Detail - Quote List" src="https://github.com/user-attachments/assets/2c246aa8-80cb-4b47-89eb-e11762e29ef4" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Profile Screen</strong><br/><img width="360" alt="Profile - User Settings" src="https://github.com/user-attachments/assets/bd0396da-1cdc-4180-9d3c-22f8439acff9" /></td>
+    <td align="center"><strong>Settings Screen</strong><br/><img width="360" alt="Settings - Customization Options" src="https://github.com/user-attachments/assets/79277a86-fcc2-47d8-ac87-d5b935f347ae" /></td>
+  </tr>
+</table>
+
+</div>
+
+### 📱 Key UI Features Showcased
+
+**🎨 Design Highlights:**
+- ✨ **Splash Screen:** Animated logo with glowing aura effect
+- 🔐 **Authentication:** Glass-morphism cards with floating background orbs
+- 🏠 **Home Feed:** Featured "Daily Aura" quote + scrollable quote cards
+- 🔍 **Explore:** Category filters + search with real-time results
+- ❤️ **Favorites:** Quick access to saved quotes with visual feedback
+- 📁 **Collections:** Custom quote groups with count badges
+- 👤 **Profile:** User info + quick access to settings
+- ⚙️ **Settings:** Dark mode, themes, notifications, font size
+
+**🎭 Animation & Interactions:**
+- Smooth page transitions with fade effects
+- Card hover animations on scroll
+- Heart pop animation on favorite toggle
+- Pull-to-refresh with custom indicator
+- Bottom navigation with sliding indicator
+- Shimmer loading states
+
+**App Flow:**
+```
+Splash Screen → Auth (Login/Signup) → Home Screen
+    ↓
+[Bottom Navigation]
+├─ Home (Quote Feed)
+├─ Explore (Categories & Search)  
+├─ Favorites (Saved Quotes)
+├─ Collections (Custom Groups)
+└─ Profile
+    ├─ Settings
+    │   ├─ Themes (5 variants)
+    │   ├─ Dark Mode Toggle
+    │   ├─ Notifications Setup
+    │   └─ Font Size Adjustment
+    └─ Logout
+```
+
+### Animation Specifications
+
+**Splash Screen:**
+- Logo scale: 0.8 → 1.2 → 1.0 (elastic)
+- Aura pulse: 3s infinite
+- Text fade-in: Staggered 200ms delay
+
+**Quote Cards:**
+- Hover: Scale 1.0 → 1.02
+- Tap: Scale 0.98 + shadow expansion
+- Favorite: Heart pop animation
+
+**Transitions:**
+- Screen changes: Slide + fade (300ms)
+- Bottom nav: Indicator slide (200ms)
+- Dialogs: Scale from center + fade
+>>>>>>> daca517 (new update)
 
 ---
 
