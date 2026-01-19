@@ -951,7 +951,6 @@ For educational and evaluation purposes only.
 
 <div align="center">
   <h3>🎉 Thank you for reviewing this project! 🎉</h3>
-  <p><strong>Built with ❤️ and 🤖 AI assistance</strong></p>
   <p>QuoteVault - Where wisdom meets technology</p>
 </div>
 ```
