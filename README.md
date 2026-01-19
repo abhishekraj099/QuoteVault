@@ -5,7 +5,6 @@
   <img src="app/src/main/res/drawable/img.png" alt="QuoteVault Logo" width="150"/>
   <h3>📱 A Premium Quote Discovery & Collection Platform</h3>
   <p>Built with Jetpack Compose, Supabase, and Clean Architecture</p>
-  <p><strong>Assignment Score: 100/100 ⭐</strong></p>
 </div>
 
 ---
