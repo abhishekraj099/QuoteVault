@@ -53,6 +53,21 @@
 </div>
 
 ---
+---
+
+## 🎨 UI Design (Stitch)
+
+I used **Stitch (with Google)** to generate and iterate on the UI design system for this project, then implemented the final screens in **Jetpack Compose** with a consistent visual language (colors, typography, spacing, and components).
+
+**Stitch Project Link:** https://stitch.withgoogle.com/projects/8616958418192653439
+
+**Design Highlights:**
+- Polished “premium” look (not stock UI)
+- Consistent components (buttons, cards, inputs)
+- Modern spacing + typography
+- Smooth transitions and screen flow
+
+---
 
 
 ---
