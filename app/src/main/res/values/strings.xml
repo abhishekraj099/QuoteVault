@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QuoteVault</string>
+    <string name="widget_description">Daily Quote of the Day on your home screen</string>
+</resources>

@@ -1,0 +1,13 @@
+package com.example.quotevault.domain.usecase.auth
+
+import com.example.quotevault.core.util.Resource
+import com.example.quotevault.domain.repository.AuthRepository
+import javax.inject.Inject
+
+class LogoutUseCase @Inject constructor(
+    private val authRepository: AuthRepository
+) {
+    suspend operator fun invoke(): Resource<Unit> {
+        return authRepository.logout()
+    }
+}
