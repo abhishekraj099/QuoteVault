@@ -1,71 +1,26 @@
-````md
-# QuoteVault - Aura Wisdom Vault
+<h1 align="center">QuoteVault - Aura Wisdom Vault</h1>
+
 
 <div align="center">
-  <img src="app/src/main/res/drawable/img.png" alt="QuoteVault - Aura Wisdom Vault Logo" width="150"/>
+  <img src="app/src/main/res/drawable/img.png" alt="QuoteVault Logo" width="150"/>
   <h3>📱 A Premium Quote Discovery & Collection Platform</h3>
   <p>Built with Jetpack Compose, Supabase, and Clean Architecture</p>
   <p><strong>Assignment Score: 100/100 ⭐</strong></p>
-
-  <br>
-
-  ### 🤖 AI-Assisted Development Summary
-
-  <table>
-    <tr>
-      <th>Area</th>
-      <th>AI %</th>
-      <th>Human %</th>
-    </tr>
-    <tr>
-      <td><strong>Auth</strong></td>
-      <td>40</td>
-      <td>60</td>
-    </tr>
-    <tr>
-      <td><strong>Discovery</strong></td>
-      <td>45</td>
-      <td>55</td>
-    </tr>
-    <tr>
-      <td><strong>Favorites</strong></td>
-      <td>40</td>
-      <td>60</td>
-    </tr>
-    <tr>
-      <td><strong>Notifications</strong></td>
-      <td>55</td>
-      <td>45</td>
-    </tr>
-    <tr>
-      <td><strong>Sharing</strong></td>
-      <td>50</td>
-      <td>50</td>
-    </tr>
-    <tr>
-      <td><strong>Settings</strong></td>
-      <td>35</td>
-      <td>65</td>
-    </tr>
-    <tr>
-      <td><strong>Widget</strong></td>
-      <td>60</td>
-      <td>40</td>
-    </tr>
-    <tr>
-      <td><strong>Architecture</strong></td>
-      <td>30</td>
-      <td>70</td>
-    </tr>
-    <tr>
-      <td><strong>➡️ Overall</strong></td>
-      <td><strong>~45%</strong></td>
-      <td><strong>~55%</strong></td>
-    </tr>
-  </table>
-
-  <p><em>AI accelerated development by ~70%, maintaining production quality</em></p>
 </div>
+
+---
+
+## 📌 Table of Contents
+- [App Screenshots](#-app-screenshots)
+- [Features & Requirements](#-features--requirements)
+- [Setup Instructions](#-setup-instructions)
+- [AI Coding Approach & Workflow](#-ai-coding-approach--workflow)
+- [AI Tools Used](#-ai-tools-used)
+- [Design Resources](#-design-resources)
+- [Architecture](#-architecture)
+- [Known Limitations](#-known-limitations)
+- [Testing](#-testing)
+- [Troubleshooting](#-troubleshooting)
 
 ---
 
@@ -73,27 +28,33 @@
 
 <div align="center">
 
-<img width="540" height="1091" alt="Image" src="https://github.com/user-attachments/assets/6a0fa98b-aed7-4e60-bfa8-21892422b587" />
-
-<img width="367" height="782" alt="Image" src="https://github.com/user-attachments/assets/3fd8cc3b-fe29-4ab9-a171-8bfc69765937" />
-
-<img width="380" height="787" alt="Image" src="https://github.com/user-attachments/assets/343bdf2a-2adf-40ea-901e-5013a9c9c322" />
-
-<img width="387" height="837" alt="Image" src="https://github.com/user-attachments/assets/7c6008b7-accd-4835-bd5f-f243826a477a" />
-
-<img width="371" height="781" alt="Image" src="https://github.com/user-attachments/assets/99bff62b-2f35-4994-982f-02ccec100a13" />
-
-<img width="372" height="812" alt="Image" src="https://github.com/user-attachments/assets/1e77ca54-dcf2-4831-b890-f106ab8f4523" />
-
-<img width="355" height="762" alt="Image" src="https://github.com/user-attachments/assets/f9332025-a81a-43ca-ae16-68ec082da675" />
-
-<img width="372" height="776" alt="Image" src="https://github.com/user-attachments/assets/2c246aa8-80cb-4b47-89eb-e11762e29ef4" />
-
-<img width="356" height="782" alt="Image" src="https://github.com/user-attachments/assets/bd0396da-1cdc-4180-9d3c-22f8439acff9" />
-
-<img width="360" height="747" alt="Image" src="https://github.com/user-attachments/assets/79277a86-fcc2-47d8-ac87-d5b935f347ae" />
+<table>
+  <tr>
+    <td><img width="320" alt="Screenshot 1" src="https://github.com/user-attachments/assets/6a0fa98b-aed7-4e60-bfa8-21892422b587" /></td>
+    <td><img width="320" alt="Screenshot 2" src="https://github.com/user-attachments/assets/3fd8cc3b-fe29-4ab9-a171-8bfc69765937" /></td>
+  </tr>
+  <tr>
+    <td><img width="320" alt="Screenshot 3" src="https://github.com/user-attachments/assets/343bdf2a-2adf-40ea-901e-5013a9c9c322" /></td>
+    <td><img width="320" alt="Screenshot 4" src="https://github.com/user-attachments/assets/7c6008b7-accd-4835-bd5f-f243826a477a" /></td>
+  </tr>
+  <tr>
+    <td><img width="320" alt="Screenshot 5" src="https://github.com/user-attachments/assets/99bff62b-2f35-4994-982f-02ccec100a13" /></td>
+    <td><img width="320" alt="Screenshot 6" src="https://github.com/user-attachments/assets/1e77ca54-dcf2-4831-b890-f106ab8f4523" /></td>
+  </tr>
+  <tr>
+    <td><img width="320" alt="Screenshot 7" src="https://github.com/user-attachments/assets/f9332025-a81a-43ca-ae16-68ec082da675" /></td>
+    <td><img width="320" alt="Screenshot 8" src="https://github.com/user-attachments/assets/2c246aa8-80cb-4b47-89eb-e11762e29ef4" /></td>
+  </tr>
+  <tr>
+    <td><img width="320" alt="Screenshot 9" src="https://github.com/user-attachments/assets/bd0396da-1cdc-4180-9d3c-22f8439acff9" /></td>
+    <td><img width="320" alt="Screenshot 10" src="https://github.com/user-attachments/assets/79277a86-fcc2-47d8-ac87-d5b935f347ae" /></td>
+  </tr>
+</table>
 
 </div>
+
+---
+
 
 ---
 
@@ -173,7 +134,7 @@
 - ✅ Comprehensive error handling
 - ✅ This README with setup instructions
 
-**Total Score: 100/100** ⭐
+
 
 ---
 
@@ -884,34 +845,7 @@ Info Blue: #3B82F6
    - Added animations and transitions
    - Refined based on device testing
 
-## 🖼️ App Screenshots
 
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center"><strong>Splash Screen</strong><br/><img width="360" alt="Splash Screen - Animated Logo" src="https://github.com/user-attachments/assets/6a0fa98b-aed7-4e60-bfa8-21892422b587" /></td>
-    <td align="center"><strong>Login Screen</strong><br/><img width="360" alt="Login - Glass Morphism Design" src="https://github.com/user-attachments/assets/3fd8cc3b-fe29-4ab9-a171-8bfc69765937" /></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Signup Screen</strong><br/><img width="360" alt="Signup - User Registration" src="https://github.com/user-attachments/assets/343bdf2a-2adf-40ea-901e-5013a9c9c322" /></td>
-    <td align="center"><strong>Home Screen</strong><br/><img width="360" alt="Home - Quote Feed & Daily Aura" src="https://github.com/user-attachments/assets/7c6008b7-accd-4835-bd5f-f243826a477a" /></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Explore Screen</strong><br/><img width="360" alt="Explore - Categories & Search" src="https://github.com/user-attachments/assets/99bff62b-2f35-4994-982f-02ccec100a13" /></td>
-    <td align="center"><strong>Favorites Screen</strong><br/><img width="360" alt="Favorites - Saved Quotes" src="https://github.com/user-attachments/assets/1e77ca54-dcf2-4831-b890-f106ab8f4523" /></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Collections Screen</strong><br/><img width="360" alt="Collections - Custom Quote Groups" src="https://github.com/user-attachments/assets/f9332025-a81a-43ca-ae16-68ec082da675" /></td>
-    <td align="center"><strong>Collection Detail</strong><br/><img width="360" alt="Collection Detail - Quote List" src="https://github.com/user-attachments/assets/2c246aa8-80cb-4b47-89eb-e11762e29ef4" /></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Profile Screen</strong><br/><img width="360" alt="Profile - User Settings" src="https://github.com/user-attachments/assets/bd0396da-1cdc-4180-9d3c-22f8439acff9" /></td>
-    <td align="center"><strong>Settings Screen</strong><br/><img width="360" alt="Settings - Customization Options" src="https://github.com/user-attachments/assets/79277a86-fcc2-47d8-ac87-d5b935f347ae" /></td>
-  </tr>
-</table>
-
-</div>
 
 ### 📱 Key UI Features Showcased
 
