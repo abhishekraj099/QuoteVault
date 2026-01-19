@@ -7,7 +7,7 @@
   <p>Built with Jetpack Compose, Supabase, and Clean Architecture</p>
 </div>
 
----
+
 
 ## 📌 Table of Contents
 - [App Screenshots](#-app-screenshots)
@@ -21,7 +21,7 @@
 - [Testing](#-testing)
 - [Troubleshooting](#-troubleshooting)
 
----
+
 
 ## 🖼️ App Screenshots
 
@@ -52,8 +52,7 @@
 
 </div>
 
----
----
+
 
 ## 🎨 UI Design (Stitch)
 
@@ -67,10 +66,10 @@ I used **Stitch (with Google)** to generate and iterate on the UI design system 
 - Modern spacing + typography
 - Smooth transitions and screen flow
 
----
 
 
----
+
+
 
 ## 📋 Table of Contents
 1. [Features & Requirements](#-features--requirements)
@@ -84,7 +83,7 @@ I used **Stitch (with Google)** to generate and iterate on the UI design system 
 9. [Testing](#-testing)
 10. [Troubleshooting](#-troubleshooting)
 
----
+
 
 ## 🌟 Features & Requirements
 
