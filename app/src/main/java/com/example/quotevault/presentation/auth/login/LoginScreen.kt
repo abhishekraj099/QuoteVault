@@ -106,9 +106,9 @@ fun LoginScreen(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Top
         ) {
-            Spacer(modifier = Modifier.height(60.dp))
+            Spacer(modifier = Modifier.height(30.dp))
 
-            // âœ¨ Tappable Logo with Rotation Animation
+            // ✨ Tappable Logo with Rotation Animation
             Box(
                 contentAlignment = Alignment.Center,
                 modifier = Modifier
@@ -161,9 +161,9 @@ fun LoginScreen(
                 }
             }
 
-            Spacer(modifier = Modifier.height(32.dp))
+            Spacer(modifier = Modifier.height(20.dp))
 
-            // ðŸ“ Welcome Text
+            // 🏛 Welcome Text
             Text(
                 text = "Welcome Back",
                 fontSize = 36.sp,
@@ -184,9 +184,9 @@ fun LoginScreen(
                 textAlign = TextAlign.Center
             )
 
-            Spacer(modifier = Modifier.height(48.dp))
+            Spacer(modifier = Modifier.height(24.dp))
 
-            // ðŸŽ´ Login Card
+            // 🎴 Login Card
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -202,7 +202,7 @@ fun LoginScreen(
                 Column(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(24.dp),
+                        .padding(20.dp),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     // Identity Label
@@ -241,7 +241,7 @@ fun LoginScreen(
                         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email)
                     )
 
-                    Spacer(modifier = Modifier.height(24.dp))
+                    Spacer(modifier = Modifier.height(16.dp))
 
                     // Password Label
                     Text(
@@ -284,7 +284,7 @@ fun LoginScreen(
                         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password)
                     )
 
-                    Spacer(modifier = Modifier.height(12.dp))
+                    Spacer(modifier = Modifier.height(8.dp))
 
                     // Forgot Password Link
                     Row(
@@ -302,7 +302,7 @@ fun LoginScreen(
                         )
                     }
 
-                    Spacer(modifier = Modifier.height(20.dp))
+                    Spacer(modifier = Modifier.height(12.dp))
 
                     // Illuminate Button
                     Button(
@@ -331,31 +331,67 @@ fun LoginScreen(
                         }
                     }
 
-                    Spacer(modifier = Modifier.height(24.dp))
+                    Spacer(modifier = Modifier.height(16.dp))
 
-                    // Create Account Link
+                    // Divider with OR text
                     Row(
-                        horizontalArrangement = Arrangement.Center,
+                        modifier = Modifier.fillMaxWidth(),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Text(
-                            text = "NEED AN IDENTITY? ",
-                            fontSize = 11.sp,
-                            fontWeight = FontWeight.Medium,
-                            color = SubtleGray,
-                            letterSpacing = 1.sp
+                        Divider(
+                            modifier = Modifier.weight(1f),
+                            color = SubtleGray.copy(alpha = 0.3f)
                         )
                         Text(
-                            text = "CREATE",
-                            fontSize = 11.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = ElectricPurple,
-                            letterSpacing = 1.sp,
-                            modifier = Modifier.clickable {
-                                navController.navigate(Screen.SignUp.route)
-                            }
+                            text = "OR",
+                            fontSize = 10.sp,
+                            fontWeight = FontWeight.Medium,
+                            color = SubtleGray.copy(alpha = 0.6f),
+                            modifier = Modifier.padding(horizontal = 16.dp),
+                            letterSpacing = 2.sp
+                        )
+                        Divider(
+                            modifier = Modifier.weight(1f),
+                            color = SubtleGray.copy(alpha = 0.3f)
                         )
                     }
+
+                    Spacer(modifier = Modifier.height(12.dp))
+
+                    // Create Account Button (more prominent)
+                    OutlinedButton(
+                        onClick = {
+                            navController.navigate(Screen.SignUp.route)
+                        },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(56.dp),
+                        shape = RoundedCornerShape(16.dp),
+                        colors = ButtonDefaults.outlinedButtonColors(
+                            containerColor = Color.Transparent,
+                            contentColor = ElectricPurple  // Changed to ElectricPurple for better visibility
+                        ),
+                        border = androidx.compose.foundation.BorderStroke(
+                            2.dp,
+                            ElectricPurple
+                        )
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.PersonAdd,
+                            contentDescription = "Create Account",
+                            tint = ElectricPurple,
+                            modifier = Modifier.size(20.dp)
+                        )
+                        Spacer(modifier = Modifier.width(12.dp))
+                        Text(
+                            text = "Create New Account",
+                            fontSize = 15.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = ElectricPurple  // Changed to ElectricPurple for better visibility
+                        )
+                    }
+
+                    Spacer(modifier = Modifier.height(12.dp))
                 }
             }
 
